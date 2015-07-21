@@ -4,7 +4,27 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FSOAuth.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Foursquare-iOS-API.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-INTULocationManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0DF2B0172D0F44031DD26151</key>
+		<key>3868D3C926CB2A3A5650132B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>902A8B8BFE978177B933F6F3</key>
+		<key>47B50623D094050DBFE608F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6ACCC1804A69D5B477900290</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD7A2749463E4111F36435FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD9168000EA30BFAA1CD868C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8392662D477BEC0B390C168</key>
 		<dict>
 			<key>primary</key>
 			<true/>
