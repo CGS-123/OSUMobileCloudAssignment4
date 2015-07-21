@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "OSUMainScreenViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import <BZFoursquare.h>
 
 @interface AppDelegate ()
 
@@ -30,9 +31,7 @@
 }
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-    UINavigationController *navigationController = (UINavigationController *)_window.rootViewController;
-    OSUMainScreenViewController *masterViewController = navigationController.viewControllers[0];
-    BZFoursquare *foursquare = masterViewController.myFourSquare;
+    BZFoursquare *foursquare = self.rootViewController.myFourSquare;
     return [foursquare handleOpenURL:url];
 }
 
