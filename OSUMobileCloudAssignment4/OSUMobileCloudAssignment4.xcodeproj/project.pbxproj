@@ -8,9 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0386C8132D9BFEE0A810C1D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F5E5B6B7852596D094110D /* libPods.a */; };
+		AF5D27FA1B7D5D1500F23D65 /* OSUEditCheckinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5D27F81B7D5D1500F23D65 /* OSUEditCheckinViewController.m */; };
+		AF5D27FB1B7D5D1500F23D65 /* OSUEditCheckinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF5D27F91B7D5D1500F23D65 /* OSUEditCheckinViewController.xib */; };
 		AFA1C8EA1B5DAC3A0030D2F7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA1C8E91B5DAC3A0030D2F7 /* MobileCoreServices.framework */; };
 		AFA1C8EC1B5DB40C0030D2F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA1C8EB1B5DB40C0030D2F7 /* Foundation.framework */; };
 		AFA1C8EE1B5DB4150030D2F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA1C8ED1B5DB4150030D2F7 /* UIKit.framework */; };
+		AFA1C8F31B5DD6310030D2F7 /* OSUVenueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA1C8F11B5DD6310030D2F7 /* OSUVenueTableViewCell.m */; };
+		AFA1C8F41B5DD6310030D2F7 /* OSUVenueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA1C8F21B5DD6310030D2F7 /* OSUVenueTableViewCell.xib */; };
+		AFA1C8F81B5F08140030D2F7 /* OSUOnboardingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA1C8F61B5F08140030D2F7 /* OSUOnboardingPageViewController.m */; };
+		AFA1C8F91B5F08140030D2F7 /* OSUOnboardingPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA1C8F71B5F08140030D2F7 /* OSUOnboardingPageViewController.xib */; };
 		AFE6997C1B5A8FEF00D61DBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE6997B1B5A8FEF00D61DBA /* main.m */; };
 		AFE6997F1B5A8FEF00D61DBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE6997E1B5A8FEF00D61DBA /* AppDelegate.m */; };
 		AFE699851B5A8FEF00D61DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE699831B5A8FEF00D61DBA /* Main.storyboard */; };
@@ -36,9 +42,19 @@
 		80F5E5B6B7852596D094110D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F5279A31A898C1FC649C52 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8E24F3EF6FBFC84FA5929082 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5D27F61B7D507300F23D65 /* SpecialFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialFiles.h; sourceTree = "<group>"; };
+		AF5D27F71B7D5D1500F23D65 /* OSUEditCheckinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSUEditCheckinViewController.h; sourceTree = "<group>"; };
+		AF5D27F81B7D5D1500F23D65 /* OSUEditCheckinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSUEditCheckinViewController.m; sourceTree = "<group>"; };
+		AF5D27F91B7D5D1500F23D65 /* OSUEditCheckinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OSUEditCheckinViewController.xib; sourceTree = "<group>"; };
 		AFA1C8E91B5DAC3A0030D2F7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		AFA1C8EB1B5DB40C0030D2F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AFA1C8ED1B5DB4150030D2F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFA1C8F01B5DD6310030D2F7 /* OSUVenueTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSUVenueTableViewCell.h; sourceTree = "<group>"; };
+		AFA1C8F11B5DD6310030D2F7 /* OSUVenueTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSUVenueTableViewCell.m; sourceTree = "<group>"; };
+		AFA1C8F21B5DD6310030D2F7 /* OSUVenueTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OSUVenueTableViewCell.xib; sourceTree = "<group>"; };
+		AFA1C8F51B5F08140030D2F7 /* OSUOnboardingPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSUOnboardingPageViewController.h; sourceTree = "<group>"; };
+		AFA1C8F61B5F08140030D2F7 /* OSUOnboardingPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSUOnboardingPageViewController.m; sourceTree = "<group>"; };
+		AFA1C8F71B5F08140030D2F7 /* OSUOnboardingPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OSUOnboardingPageViewController.xib; sourceTree = "<group>"; };
 		AFE699761B5A8FEF00D61DBA /* OSUMobileCloudAssignment4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSUMobileCloudAssignment4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE6997A1B5A8FEF00D61DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFE6997B1B5A8FEF00D61DBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -164,9 +180,18 @@
 		AFE699A21B5AFBCE00D61DBA /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				AFA1C8F51B5F08140030D2F7 /* OSUOnboardingPageViewController.h */,
+				AFA1C8F61B5F08140030D2F7 /* OSUOnboardingPageViewController.m */,
+				AFA1C8F71B5F08140030D2F7 /* OSUOnboardingPageViewController.xib */,
 				AFE699AB1B5B04DA00D61DBA /* OSUMainScreenViewController.h */,
 				AFE699AC1B5B04DA00D61DBA /* OSUMainScreenViewController.m */,
 				AFE699AD1B5B04DA00D61DBA /* OSUMainScreenViewController.xib */,
+				AFA1C8F01B5DD6310030D2F7 /* OSUVenueTableViewCell.h */,
+				AFA1C8F11B5DD6310030D2F7 /* OSUVenueTableViewCell.m */,
+				AFA1C8F21B5DD6310030D2F7 /* OSUVenueTableViewCell.xib */,
+				AF5D27F71B7D5D1500F23D65 /* OSUEditCheckinViewController.h */,
+				AF5D27F81B7D5D1500F23D65 /* OSUEditCheckinViewController.m */,
+				AF5D27F91B7D5D1500F23D65 /* OSUEditCheckinViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -174,6 +199,7 @@
 		AFE699A31B5AFBDC00D61DBA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AF5D27F61B7D507300F23D65 /* SpecialFiles.h */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -278,8 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFE699851B5A8FEF00D61DBA /* Main.storyboard in Resources */,
+				AF5D27FB1B7D5D1500F23D65 /* OSUEditCheckinViewController.xib in Resources */,
 				AFE6998A1B5A8FEF00D61DBA /* LaunchScreen.xib in Resources */,
 				AFE699871B5A8FEF00D61DBA /* Images.xcassets in Resources */,
+				AFA1C8F41B5DD6310030D2F7 /* OSUVenueTableViewCell.xib in Resources */,
+				AFA1C8F91B5F08140030D2F7 /* OSUOnboardingPageViewController.xib in Resources */,
 				AFE699AF1B5B04DA00D61DBA /* OSUMainScreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,9 +361,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFE6997F1B5A8FEF00D61DBA /* AppDelegate.m in Sources */,
+				AF5D27FA1B7D5D1500F23D65 /* OSUEditCheckinViewController.m in Sources */,
 				AFE699AA1B5AFDC100D61DBA /* UIAlertController+Utils.m in Sources */,
+				AFA1C8F81B5F08140030D2F7 /* OSUOnboardingPageViewController.m in Sources */,
 				AFE6997C1B5A8FEF00D61DBA /* main.m in Sources */,
 				AFE699AE1B5B04DA00D61DBA /* OSUMainScreenViewController.m in Sources */,
+				AFA1C8F31B5DD6310030D2F7 /* OSUVenueTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

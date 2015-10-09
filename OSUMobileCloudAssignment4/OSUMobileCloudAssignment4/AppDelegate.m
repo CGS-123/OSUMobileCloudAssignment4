@@ -14,6 +14,7 @@
 @interface AppDelegate ()
 
 @property (strong, nonatomic) OSUMainScreenViewController *rootViewController;
+@property (strong, nonatomic) UINavigationController *navigationController;
 
 @end
 
@@ -22,12 +23,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [GMSServices provideAPIKey:@"AIzaSyAix-aX1qwizR0IZGKKM2y1-do-tHQTBtg"];
-    self.rootViewController = [[OSUMainScreenViewController alloc] initWithNibName:nil bundle:nil];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = self.rootViewController;
+    self.rootViewController = [[OSUMainScreenViewController alloc] initWithNibName:nil bundle:nil];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController: self.rootViewController];
+    self.window.rootViewController = self.navigationController;
+
     [self.window makeKeyAndVisible];
-    return YES;
+    return YES;    
 }
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {

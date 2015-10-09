@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OSUOnboardingPageViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIK-iV-ESH">
+                    <rect key="frame" x="29" y="362" width="317" height="203"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="317" id="5Gd-eJ-Rqk"/>
+                        <constraint firstAttribute="height" constant="203" id="ug5-yx-UNo"/>
+                    </constraints>
+                    <string key="text">Here's a quick summary of the app. The first thing you'll see when you enter the app is an authentication process through foursquare. You can enter your foursquare credentials and then use the app to see venues near you, at a custom location and you can check in to those venues. The app uses location to get the venues near you. A google map is also displayed with your location.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="google-maps-icon" translatesAutoresizingMaskIntoConstraints="NO" id="QRY-1C-wLw">
+                    <rect key="frame" x="10" y="70" width="132" height="116"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="132" id="8T0-zR-bD5"/>
+                        <constraint firstAttribute="height" constant="116" id="o8z-2e-dqC"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foursquare-api-1-728" translatesAutoresizingMaskIntoConstraints="NO" id="lWs-cn-knc">
+                    <rect key="frame" x="150" y="70" width="217" height="126"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="217" id="3rv-fq-3Na"/>
+                        <constraint firstAttribute="height" constant="126" id="4zj-Ka-Aiz"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Core_Location_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="I1i-Iq-53f">
+                    <rect key="frame" x="100" y="209" width="175" height="145"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="145" id="2wT-1H-Y1K"/>
+                        <constraint firstAttribute="width" constant="175" id="lid-VN-10Q"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="QRY-1C-wLw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="30R-wq-THb"/>
+                <constraint firstAttribute="centerX" secondItem="dIK-iV-ESH" secondAttribute="centerX" id="6bE-i3-A7B"/>
+                <constraint firstItem="dIK-iV-ESH" firstAttribute="top" secondItem="I1i-Iq-53f" secondAttribute="bottom" constant="8" id="B5l-Z3-jiO"/>
+                <constraint firstItem="lWs-cn-knc" firstAttribute="leading" secondItem="QRY-1C-wLw" secondAttribute="trailing" constant="8" id="Qow-Wb-D0L"/>
+                <constraint firstItem="I1i-Iq-53f" firstAttribute="top" secondItem="lWs-cn-knc" secondAttribute="bottom" constant="13" id="U1Z-Gj-XWl"/>
+                <constraint firstItem="lWs-cn-knc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="baE-NC-kyd"/>
+                <constraint firstItem="QRY-1C-wLw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="vQ3-ge-vfT"/>
+                <constraint firstAttribute="centerX" secondItem="I1i-Iq-53f" secondAttribute="centerX" id="yHm-9i-jy5"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="599.5" y="551.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Core_Location_Icon" width="800" height="600"/>
+        <image name="foursquare-api-1-728" width="728" height="546"/>
+        <image name="google-maps-icon" width="480" height="480"/>
+    </resources>
+</document>
